@@ -28,7 +28,7 @@ module.exports = {
     
     //strip
     cardStrip: '.plc',
-    cardAddIcon: 'img[alt=card]',
+    cardAddSuccessIcon: 'img[alt=card]',
 
 
     // Modals
@@ -74,7 +74,7 @@ module.exports = {
         await $(this.confirmButton).click()
     
     },
-    //Adding card
+    
 
     addingCardToPayment: async function(){
         
